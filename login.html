@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title></title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="jqueryui/jquery-ui.min.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="">
+    <div class="container-fluid header-banner">
+        <div class="header-nav header-logo">
+            <a data-no-turbolink="true" class="brand brand-event track-event" href="/">
+                <i class='gd-icon-logo'></i><span class='brand-name'>金数据</span>
+            </a>
+        </div>
+        <div class="collapse" id="navbar_collapse">
+            <ul class="header-nav menu-nav clearfix">
+                <li>
+                    <a id="cases-drop" aria_haspopup="true" aria_expanded="false" data-toggle="dropdown" data-target="#"
+                       class="cases-event track-event" href="#">
+                        解决方案<span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu cases-list " aria-labelledby="cases-drop">
+                        <li><a href="/cases/education">教育培训</a></li>
+                        <li><a href="/cases/commercial">文化/广告/传媒</a></li>
+                        <li><a href="/cases/business">电商</a></li>
+                        <li><a href="/cases/enterprise">大公司</a></li>
+                        <li><a href="/cases/startup">初创团队</a></li>
+                        <li><a href="/cases/social-justice">小金爱公益</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a class="features-event track-event" href="/features">产品特性</a>
+                </li>
+                <li>
+                    <a class="plan-event track-event" href="/plan">价格详情</a>
+                </li>
+                <li>
+                    <a class="templates-event track-event" href="/templates">模板中心</a>
+                </li>
+            </ul>
+            <div class="navbar-collapse-arrow"></div>
+        </div>
+        <div id="site_meau_toggle" style="float: right">
+            <!-- <a class="navbar-toggle collapsed gd-btn gd-btn-info gd-btn-icon" data-toggle="collapse" data-target="#navbar_collapse" href="#">
+              <i class="gd-icon-bars"></i>
+            </a> -->
+            <a class="navbar-toggle collapsed gd-btn gd-btn-info gd-btn-icon" data-toggle="collapse">
+                <i class="gd-icon-bars"></i>
+            </a>
+        </div>
+
+        <ul class="header-nav user-nav">
+            <li><a class="login-link login-event track-event" href="/login">登录</a></li>
+            <li><a class="gd-btn gd-btn-info signup-link signup-event track-event"
+                   href="/signup?utm_campaign=jul&amp;utm_medium=top_nav&amp;utm_source=site">注册</a></li>
+        </ul>
+
+    </div>
+</header>
+
+<div class="row">
+    <label class="btn col-md-1">用户名</label>
+    <input type="text" class="col-md-3"/>
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="jqueryui/jquery-ui.min.css"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="js/angular.min.js"></script>
+<script src="js/angular-route.min.js"></script>
+
+</body>
+</html>
